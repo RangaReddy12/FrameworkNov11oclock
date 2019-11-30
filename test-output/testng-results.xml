@@ -2,84 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Login Success]]>
+      <![CDATA[no of rows are::4]]>
     </line>
     <line>
-      <![CDATA[Logout Success]]>
+      <![CDATA[Emp Created Fail]]>
     </line>
     <line>
-      <![CDATA[Login Success]]>
+      <![CDATA[Emp Created Success]]>
     </line>
     <line>
-      <![CDATA[New Branch with id 199 created Sucessfully]]>
+      <![CDATA[Emp Created Success]]>
     </line>
     <line>
-      <![CDATA[Branch Created Fail]]>
-    </line>
-    <line>
-      <![CDATA[Logout Success]]>
-    </line>
-    <line>
-      <![CDATA[Login Success]]>
-    </line>
-    <line>
-      <![CDATA[Branch updated Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Branch Updated Fail]]>
-    </line>
-    <line>
-      <![CDATA[Logout Success]]>
+      <![CDATA[Emp Created Success]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93821" started-at="2019-11-29T07:28:55Z" finished-at="2019-11-29T07:30:29Z">
+  <suite name="Default suite" duration-ms="79184" started-at="2019-11-30T07:08:30Z" finished-at="2019-11-30T07:09:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93821" started-at="2019-11-29T07:28:55Z" finished-at="2019-11-29T07:30:29Z">
-      <class name="DriverFactory.DriverScript">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.DriverScript@fad74ee]" name="setUp" is-config="true" duration-ms="4933" started-at="2019-11-29T07:28:55Z" finished-at="2019-11-29T07:29:00Z">
+    <test name="Default test" duration-ms="79184" started-at="2019-11-30T07:08:30Z" finished-at="2019-11-30T07:09:49Z">
+      <class name="DriverFactory.PomDataDriven">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.PomDataDriven@36b4cef0]" name="setUp" is-config="true" duration-ms="13532" started-at="2019-11-30T07:08:30Z" finished-at="2019-11-30T07:08:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pbKeyword()[pri:0, instance:DriverFactory.DriverScript@fad74ee]" name="pbKeyword" duration-ms="86689" started-at="2019-11-29T07:29:00Z" finished-at="2019-11-29T07:30:27Z">
+        <test-method status="PASS" signature="Verifyempcreation()[pri:0, instance:DriverFactory.PomDataDriven@36b4cef0]" name="Verifyempcreation" duration-ms="56030" started-at="2019-11-30T07:08:43Z" finished-at="2019-11-30T07:09:39Z">
           <reporter-output>
             <line>
-              <![CDATA[Login Success]]>
+              <![CDATA[no of rows are::4]]>
             </line>
             <line>
-              <![CDATA[Logout Success]]>
+              <![CDATA[Emp Created Fail]]>
             </line>
             <line>
-              <![CDATA[Login Success]]>
+              <![CDATA[Emp Created Success]]>
             </line>
             <line>
-              <![CDATA[New Branch with id 199 created Sucessfully]]>
+              <![CDATA[Emp Created Success]]>
             </line>
             <line>
-              <![CDATA[Branch Created Fail]]>
-            </line>
-            <line>
-              <![CDATA[Logout Success]]>
-            </line>
-            <line>
-              <![CDATA[Login Success]]>
-            </line>
-            <line>
-              <![CDATA[Branch updated Sucessfully]]>
-            </line>
-            <line>
-              <![CDATA[Branch Updated Fail]]>
-            </line>
-            <line>
-              <![CDATA[Logout Success]]>
+              <![CDATA[Emp Created Success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- pbKeyword -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.DriverScript@fad74ee]" name="tearDown" is-config="true" duration-ms="2150" started-at="2019-11-29T07:30:27Z" finished-at="2019-11-29T07:30:29Z">
+        </test-method> <!-- Verifyempcreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.PomDataDriven@36b4cef0]" name="tearDown" is-config="true" duration-ms="9600" started-at="2019-11-30T07:09:39Z" finished-at="2019-11-30T07:09:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- DriverFactory.DriverScript -->
+      </class> <!-- DriverFactory.PomDataDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

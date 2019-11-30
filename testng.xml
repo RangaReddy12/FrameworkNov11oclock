@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="methods">
-  <test thread-count="5" name="Test" parallel="methods">
+  <test thread-count="5" name="Test1" parallel="methods">
     <classes>
       <class name="DriverFactory.DriverScript"/>
-      <class name="DriverFactory.DataDrivenFrameWork"/>
-      <class name="DriverFactory.DataDriven"/>
+          </classes>
+  </test> <!-- Test1 -->
+  <test thread-count="5" name="Test2" parallel="methods">
+    <classes>
+      
+     <class name="DriverFactory.DataDrivenFrameWork"/>
+     
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="Test3" parallel="methods">
+    <classes>
+      
+      <class name="DriverFactory.DataDriven"/>
+    </classes>
+  </test> <!-- Test3 -->
+  <test thread-count="5" name="Test4" parallel="methods">
+    <classes>
+      <class name="DriverFactory.TestScript"></class>
+    </classes>
+  </test> <!-- Test4 -->
 </suite> <!-- Suite -->
